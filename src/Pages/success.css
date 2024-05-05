@@ -1,0 +1,26 @@
+.successheader{
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.thanksnote{
+    font-family:Dancing Script;
+    font-size: 25px;
+}
+
+.orderdetails{
+    font-family: Libre Baskerville;
+}
+
+.shopbtn{
+    padding-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background:  #ff5a5a;
+
+}
+.container{
+    padding-bottom: 80px;
+}
