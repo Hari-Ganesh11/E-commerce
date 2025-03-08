@@ -12,9 +12,9 @@ const Homepage = () => {
     <img className='heroimg' src={heroimage}></img>
     <div className='banner-container'>
       <h3 className='bannertext'> Our Exciting Offers </h3>
-      <NavLink to='/shopcategory/men'><img src={mensbanner} alt=""/></NavLink>
-      <NavLink to='/shopcategory/women'><img src={womenbanner} alt=""/></NavLink>
-      <NavLink to='/shopcategory/kid'><img src={kidsbanner} alt=""/></NavLink>
+      <NavLink to='/shopcategory/men'><img className='banner-img' src={mensbanner} alt=""/></NavLink>
+      <NavLink to='/shopcategory/women'><img className='banner-img' src={womenbanner} alt=""/></NavLink>
+      <NavLink to='/shopcategory/kid'><img className='banner-img' src={kidsbanner} alt=""/></NavLink>
     </div>
     </>
   )

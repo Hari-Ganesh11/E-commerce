@@ -15,4 +15,9 @@
 
 .bannertext{
     font-size: 80px;
+    object-fit: cover;
+}
+.banner-img{
+    object-fit: cover;
+    width:min-content;
 }
